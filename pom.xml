@@ -99,5 +99,10 @@
 
 		<finalName>springangular</finalName>
 	</build>
-
+<distributionManagement>
+    <repository>
+      <id>ftp-repository</id>
+      <url>ftp://localhost:8080/repository</url>
+    </repository>
+  </distributionManagement>
 </project>
